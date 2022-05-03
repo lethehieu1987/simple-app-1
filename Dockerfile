@@ -1,4 +1,5 @@
-FROM --platform=linux/amd64 node:16
+#FROM --platform=linux/amd64 node:16
+FROM wordpress:5.8.3-php7.3-apache
 
 #create app directory
 WORKDIR /app
